@@ -1,0 +1,20 @@
+{
+    "name": "Python AI Agent",
+    "description": "A custom Copilot agent that integrates with a Python-based AI backend.",
+    "api": {
+      "base_url": "http://localhost:8000",
+      "endpoints": {
+        "process_query": {
+          "method": "POST",
+          "path": "/process-query"
+        }
+      }
+    },
+    "capabilities": [
+      {
+        "command": "process",
+        "description": "Processes a user query using the Python AI agent",
+        "endpoint": "process_query"
+      }
+    ]
+  }
